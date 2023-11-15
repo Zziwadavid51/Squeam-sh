@@ -32,11 +32,11 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URL = environ.get('mongodb+srv://Righteous:G3jDw9Apdidbk1uq@cluster0.jh15z5c.mongodb.net/?retryWrites=true&w=majority', "mongodb+srv://Righteous:G3jDw9Apdidbk1uq@cluster0.jh15z5c.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://Righteous:G3jDw9Apdidbk1uq@cluster0.jh15z5c.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 FILE_DB_URL = environ.get("mongodb+srv://Righteous:G3jDw9Apdidbk1uq@cluster0.jh15z5c.mongodb.net/?retryWrites=true&w=majority", DATABASE_URL)
 FILE_DB_NAME = environ.get("Cluster0", DATABASE_NAME)
-COLLECTION_NAME = environ.get('telegram_files', 'telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'telegram_files')
 
 # Filters Configuration 
 MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "10"))
