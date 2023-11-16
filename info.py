@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6513410112:AAFM6UoUSW0b9WEIKXsB4R7oS8a4iD3
 
 # Bot settings
 WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
-PICS = (environ.get('PICS' ,'https://graph.org/file/01ddfcb1e8203879a63d7.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg https://graph.org/file/a125497b6b85a1d774394.jpg https://graph.org/file/43d26c54d37f4afb830f7.jpg https://graph.org/file/60c1adffc7cc2015f771c.jpg https://graph.org/file/d7b520240b00b7f083a24.jpg https://graph.org/file/0f336b0402db3f2a20037.jpg https://graph.org/file/39cc4e15cad4519d8e932.jpg https://graph.org/file/d59a1108b1ed1c6c6c144.jpg https://te.legra.ph/file/3a4a79f8d5955e64cbb8e.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg https://te.legra.ph/file/ce993e7fcf6e123f6aff3.jpg https://te.legra.ph/file/12a8246eb2709bcdfaa80.jpg https://te.legra.ph/file/cc4e89829bafc8b1765c3.jpg https://te.legra.ph/file/cc8e0b32a99f584e74f25.jpg')).split()
+PICS = (environ.get('PICS' ,' https://graph.org/file/d59a1108b1ed1c6c6c144.jpg https://te.legra.ph/file/3a4a79f8d5955e64cbb8e.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg https://te.legra.ph/file/ce993e7fcf6e123f6aff3.jpg https://te.legra.ph/file/12a8246eb2709bcdfaa80.jpg https://te.legra.ph/file/cc4e89829bafc8b1765c3.jpg https://te.legra.ph/file/cc8e0b32a99f584e74f25.jpg')).split()
 UPTIME = time.time()
 
 # Admins, Channels & Users
@@ -63,7 +63,7 @@ P_TTI_SHOW_OFF = is_enabled(environ.get('P_TTI_SHOW_OFF', "True"), True)
 PM_IMDB = is_enabled(environ.get('PM_IMDB', "True"), True)
 IMDB = is_enabled(environ.get('IMDB', "True"), True)
 SINGLE_BUTTON = is_enabled(environ.get('SINGLE_BUTTON', "True"), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<code>{file_name}</code>\nJOIN @BLASTWALLZTV🔷")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION","🎬:-{file_name}\n📂-<i>{file_size}</i>\n<b>𝙅𝙊𝙄𝙉 [𝘽𝙇𝘼𝙎𝙏𝙒𝘼𝙇𝙇𝙕𝙏𝙑📡](https://t.me/blastwallztv)</b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", None)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
