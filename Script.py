@@ -8,7 +8,7 @@ I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
     ABOUT_TXT = """:-| ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}><b>𝐒𝐀𝐒𝐇𝐀🔮</b></a>
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/mrrighteous99></b><b>꧁☬ᴍʀ࿅ʀɪɢʜᴛᴇᴏᴜs☬꧂⁣<b></a>
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/mrrighteous99></b><b>ᴍʀ.ʀɪɢʜᴛᴇᴏᴜs<b></a>
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ
